@@ -67,7 +67,7 @@ public class SingleLinkedList {
 
     }
     void deleteNode(int index){
-        if(index>=size){
+        if(index>=size || head==null){
             return;
         }
         else if(index==0){
